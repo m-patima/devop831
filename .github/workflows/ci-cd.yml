@@ -28,7 +28,7 @@ jobs:
           context: .
           push: true
           # เปลี่ยน 'your-username/your-repo-name' เป็นชื่อของคุณ
-          tags: patimakhakhao/devop831:latest S
+          tags: patimakhakhao/devop831:latest
 
   deploy:
     needs: build-and-push-docker-image
